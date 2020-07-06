@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "cypress": "^4.9.0"
+  },
+  "devDependencies": {
+    "cypress-intellij-reporter": "^0.0.4"
+  }
+}
