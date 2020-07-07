@@ -1,4 +1,4 @@
-git---
+---
 title: 高级前端养成14nodeJS框架04之Cypress 自动化测试
 date: 2020-07-06 20:45:19
 tags: 高级前端
@@ -76,3 +76,12 @@ tags: 高级前端
 6. 开始写自己的测试
 
 - ./node_modules/.bin/cypress open
+- 如果 open 比较麻烦可以./node_modules/.bin/cypress run
+
+7. 只测试重要的页面
+
+- 比如登录，加入购物车，下单
+- 不要测样式，只测功能
+
+8. 如何写测试api
+- webstorm 自动提示和看文档
